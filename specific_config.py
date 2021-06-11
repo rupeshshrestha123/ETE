@@ -1,6 +1,6 @@
 import os
 
-path_to_download = 'dataset'
+path_to_download = '/content/drive/MyDrive/thesis/english_corpus'
 base_model_path = 'model'
 
 os.makedirs(path_to_download, exist_ok=True)
