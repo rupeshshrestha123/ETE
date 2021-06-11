@@ -1,13 +1,13 @@
 import os
 
-path_to_download = ''
-base_model_path = ''
+path_to_download = 'dataset'
+base_model_path = 'model'
 
 os.makedirs(path_to_download, exist_ok=True)
 os.makedirs(base_model_path, exist_ok=True)
 
-test_model = base_model_path + ''
-cache_dir = ''
+test_model = base_model_path + 'test'
+cache_dir = 'cache'
 
 resume = {
 	'restart': False,
