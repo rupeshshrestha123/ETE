@@ -39,7 +39,7 @@ rmlsutt = {
 }
 
 seed = 1
-num_epochs = 100
+num_epochs = 2    #Initially 100 changed to 2 for test purpose
 CTC_LOSS_THRESHOLD = 10000
 
 model_save_path = base_model_path + str(datetime.time(datetime.now()))

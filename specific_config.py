@@ -1,7 +1,7 @@
 import os
 
 path_to_download = '/content/drive/MyDrive/thesis/english_corpus'
-base_model_path = 'model'
+base_model_path = '/content/drive/MyDrive/thesis/model'
 
 os.makedirs(path_to_download, exist_ok=True)
 os.makedirs(base_model_path, exist_ok=True)
@@ -15,7 +15,7 @@ resume = {
 		''
 }
 
-use_cuda = False
+use_cuda = False     #Initially False 
 
 if not use_cuda:
 	num_cuda = '0'

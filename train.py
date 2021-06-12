@@ -117,6 +117,7 @@ def main():
 
 	model = E2E(idim=80, odim=5002, args=config.ModelArgs())
 
+	#If uses CUDA need to modify codes here.
 	if config.use_cuda:
 		model = model.cuda()
 		model = nn.DataParallel(model)
